@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/java,maven,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,visualstudiocode
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -21,4 +25,29 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+### Maven ###
+# Maven Target output
+target/
+
+# Tmp folder created by Jetty
+.tmp/
+
+# Log file
+pom.xml.log
+
+# Release Backup
+pom.xml.releaseBackup
+
+# Mac OS X
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/java,maven,visualstudiocode
